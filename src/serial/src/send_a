@@ -19,7 +19,7 @@ public:
 private:
     void timer_callback()
     {
-        boost::asio::write(port, boost::asio::buffer("a"));
+        boost::asio::write(port, boost::asio::buffer("asagohan\n"));
     }
     rclcpp::TimerBase::SharedPtr timer_;
     io_service io;
